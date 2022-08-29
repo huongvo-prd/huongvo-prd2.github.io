@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+​
+    <title>Huong Widget Test</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="Huong Vo" />
+  </head>
+​
+  <body>
+    <h1>Environment: Test</h1>
+​
+    <script>
+      function loadLanguage() {
+        var language = localStorage.getItem('lang');
+        if (!language) {
+          language = 'en';
+        }
+        document.documentElement.lang = language;
+        document.getElementById('language').value = language;
+      }
+      loadLanguage();
+      function changeLanguage() {
+        var language = document.getElementById('language').value;
+        localStorage.setItem('lang', language);
+        location.reload();
+      }
+    </script>
+​
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+​
+  <script type='text/javascript'>
+    var oliviaChatData = oliviaChatData || [];
+    var oliviaChatBaseUrl =  'https://test.paradox.ai';
+    oliviaChatData.push(['setKey', 'lqxlvppzwtkxhhdrruyp']);
+    oliviaChatData.push(['start']);
+    (function() {
+        var apply = document.createElement('script');
+        apply.type = 'text/javascript';
+        apply.async = true;
+        apply.src = 'https://d2cxf26suf1qae.cloudfront.net/static/site/js/widget-client.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(apply, s);
+    })();
+</script>
+
+  </body>
+</html>
