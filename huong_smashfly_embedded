@@ -1,9 +1,19 @@
-<h1>Environment: Smashfly PROD</h1>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+​
+    <title>Huong Embedded PROD</title>
+    <meta name="description" content="The HTML5 Herald" />
+    <meta name="author" content="Huong Vo" />
+  </head>
+​
+  <body>
+    <h1>Environment: PROD</h1>
 ​
     <table>
       <tr>
         <td>Company:</td>
-        <td>ParadoxVN-Huong</td>
+        <td>Paradox VN - Huong: company</td>
       </tr>
     </table>
 ​
