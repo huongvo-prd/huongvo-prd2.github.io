@@ -2,13 +2,14 @@
   <head>
     <meta charset="utf-8" />
 ​
-    <title>Huong Widget Test</title>
+    <title>Huong Widget DEV
+    </title>
     <meta name="description" content="The HTML5 Herald" />
     <meta name="author" content="Huong Vo" />
   </head>
 ​
   <body>
-    <h1>Environment: Test</h1>
+    <h1>Environment: DEV </h1>
 ​
     <script>
       function loadLanguage() {
@@ -30,18 +31,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 ​
   <script type='text/javascript'>
-    var oliviaChatData = oliviaChatData || [];
-    var oliviaChatBaseUrl =  'https://dev2.paradox.ai';
-    oliviaChatData.push(['setKey', 'osmxhqrkycglrqbzriza']);
-    oliviaChatData.push(['start']);
-    (function() {
+    (function(o,l) {
+        window.oliviaChatData = window.oliviaChatData || [];
+        window.oliviaChatBaseUrl = o;
+        window.oliviaChatData.push(['setKey', l]);
+        window.oliviaChatData.push(['start']);
         var apply = document.createElement('script');
         apply.type = 'text/javascript';
         apply.async = true;
-        apply.src = 'https://d3thz8gx9tn9hz.cloudfront.net/static/site/js/widget-client.js';
+        apply.src = 'https://d18xlt4ammf2il.cloudfront.net/static/site/js/widget-client.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(apply, s);
-    })();
+    })('https://dev.paradox.ai', 'eolxtnocwlsitjxmfyek');
 </script>
 
   </body>
